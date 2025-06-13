@@ -6,7 +6,7 @@ import requests
 def get_wallet_transactions(wallet_address):
     url = "https://api.helius.xyz/v0/transactions"
     params = {
-        "api-key": "your-helius-api-key",  # 替换为你的Helius API密钥
+        "api-key": "f71ab4f1-900c-43a7-8ea2-9b4a440b008e",  # 替换为你的Helius API密钥
         "address": wallet_address,
         "limit": 100
     }
